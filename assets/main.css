@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa',sans-serif;
+
+}
+a {
+  color: white;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  background-color:  #2196f3;
+  overflow: auto;
+}
+/* main site header */
+.main-nav-bar {
+  width: 100%;
+  height: 150px;
+  padding: 35px 70px;
+  background-color:  #2196f3;
+  font-size: 100%;
+  font-weight: 800;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  transition: height 0.3s;
+}
+.main-nav-bar ul {
+  overflow: auto;
+  list-style: none;
+}
+.main-nav-bar li {
+  font-variant: small-caps;
+  line-height: 75px;
+  padding: 0 20px;
+  float: left;
+  transition: all 0.3s;
+}
+.right-side-items {
+  float: right;
+}
+#logo {
+  font-size: 40px;
+  font-weight: 800px;
+  float: left;
+  transition: all 0.3s;
+}
+#emph {
+background:  #f44336;
+}
+
+.right-side-items li:hover {
+  color: #0d47a1;
+}
+.right-side-items li:active {
+  background-color: #1565c0;
+}
+/* scroll header resize */
+.smaller {
+  padding: 10px 20px;
+  height: 50px;
+}
+.smaller #logo {
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+
+}
+.smaller .right-side-items {
+  height: 35px;
+}
+.smaller .right-side-items li {
+  line-height: 35px;
+}
+
+/* jumbotron */
+.headline-image {
+  width: 200px;
+  margin: auto;
+}
+.headline-image img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 2em;
+  margin-bottom: 40px;
+}
+.jumbotron {
+  width: 50%;
+  padding: 200px 0 100px 0;
+  margin:  auto;
+  text-align: center;
+  color: white;
+
+}
+.headline {
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+
+
+}
+hr {
+  border: 2px solid white;
+  border-radius: 200px;
+  width: 180px;
+  margin: 30px auto;
+
+}
+
+/* Portfolio section */
+.portfolio, .about{
+  text-transform: uppercase;
+  color: blac;
+  width: 80%;
+  margin: 100px auto;
+
+}
+
+.portfolio h1, .about h1{
+  margin-top: 60px;
+  text-align: center;
+
+}
+.portfolio hr, .about hr, .contact hr{
+  border-color: black;
+  margin-bottom: 40px;
+}
+.portfolio ul {
+  overflow: auto;
+  list-style: none;
+}
+.portfolio div {
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+
+}
+.grid li {
+
+  border: 10px solid grey;
+  height: 100%;
+}
+/* about section */
+.about, .tools-content, .contact{
+  overflow: auto;
+  text-align: center;
+  width: 80%;
+  color: white;
+  background-color: #2196f3
+}
+.about h1,  .tools-content h2, .contact h1{
+  margin-top: 60px;
+}
+.about hr {
+  border-color: white;
+}
+.me-content, .tools-content, .contact {
+  color: white;
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+}
+.left-part, .right-part{
+  text-align: justify;
+  width: 50%;
+  float: left;
+}
+.right-part {
+  padding-right: 20px;
+}
+/* tools section */
+h3 {
+  margin: 20px 0;
+}
+/* contact section */
+.contact {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+
+}
+/*footer */
+.social {
+  background-color: #1565c0;
+  height: 400px;
+}
+footer {
+  line-height: 100px;
+  text-align: center;
+  color: white;
+  background-color: #0d47a1;
+}
