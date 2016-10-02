@@ -1,6 +1,4 @@
-# myhomepage
-
-Personal Page
+# Personal Page
 
 Made with HTML, CSS, JS.
 
